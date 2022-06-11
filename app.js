@@ -17,7 +17,7 @@ fetch(video_http + new URLSearchParams({
         getChannelIcon(item);
     })
 })
-.catch(err => console.log(err));
+.catch(err => console.log(err ));
 
 const getChannelIcon = (video_data) => {
     fetch(channel_http + new URLSearchParams({
